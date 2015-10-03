@@ -15,5 +15,5 @@ Primework.o: Primework.cpp
 
 
 clean:
-	rm $(OBJ_DIR)/*.o
-	rm $(BUILD_DIR)/*.out
+	rm *.o
+	rm *.out

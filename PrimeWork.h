@@ -5,7 +5,7 @@
 class PrimeWork {
 
 public:
-    int* primeFactoring(int num);
+    std::vector<int>* primeFactoring(int num);
 };
 
 #endif
