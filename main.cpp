@@ -1,7 +1,7 @@
 #include <iostream>
 #include <vector>
 
-#include "PrimeWork.h"
+#include "include/PrimeWork.h"
 
 using namespace std;
 

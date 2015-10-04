@@ -10,8 +10,8 @@ output.out: $(OBJ)
 main.o: main.cpp
 	 $(CC) $(FLAGS) -c main.cpp -o main.o
 
-Primework.o: Primework.cpp
-	 $(CC) $(FLAGS) -c Primework.cpp -o Primework.o
+Primework.o: src/Primework.cpp
+	 $(CC) $(FLAGS) -c src/Primework.cpp -o Primework.o
 
 
 clean:

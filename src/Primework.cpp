@@ -3,7 +3,7 @@
 #include <cmath>
 
 
-#include "PrimeWork.h"
+#include "../include/PrimeWork.h"
 
 std::vector<int>* PrimeWork::primeFactoring(int num){
 
