@@ -8,14 +8,13 @@ using namespace std;
 int main(){
 
     vector<int>* primes;
-    PrimeWork p;
 
     int input = 0;
     cout<<"Enter a number: ";
     cin>>input;
 
     while(input != 0){
-        primes = p.primeFactoring(input);
+        primes = PrimeWork::primeFactoring(input);
 
         for(int i = 0; i < primes->size(); i++){
             cout<<primes->at(i)<<" ";
@@ -25,9 +24,6 @@ int main(){
         cout<<endl<<"enter a number: ";
         cin>>input;
     }
-
-
-
 
 
     delete primes;

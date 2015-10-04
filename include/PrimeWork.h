@@ -2,9 +2,8 @@
 #define NUM_H
 
 
-class PrimeWork {
+namespace PrimeWork {
 
-public:
     /*
         Get the prime factors that make up a number
         param num: the number to be broken down
