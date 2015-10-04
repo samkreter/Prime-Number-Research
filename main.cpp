@@ -7,15 +7,28 @@ using namespace std;
 
 int main(){
 
-
+    vector<int>* primes;
     PrimeWork p;
 
-    vector<int>* primes = p.primeFactoring(50);
+    int input = 0;
+    cout<<"Enter a number: ";
+    cin>>input;
 
+    while(input != 0){
+        primes = p.primeFactoring(input);
 
-    for(int i = 0; i < primes->size(); i++){
-        cout<<primes->at(i)<<" ";
+        for(int i = 0; i < primes->size(); i++){
+            cout<<primes->at(i)<<" ";
+        }
+        cout<<endl;
+        primes->clear();
+        cout<<endl<<"enter a number: ";
+        cin>>input;
     }
+
+
+
+
 
     delete primes;
 

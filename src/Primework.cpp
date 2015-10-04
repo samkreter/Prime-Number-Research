@@ -5,6 +5,8 @@
 
 #include "../include/PrimeWork.h"
 
+
+//Works for all number besides ones involving 25
 std::vector<int>* PrimeWork::primeFactoring(int num){
 
     std::vector<int>* primes = new std::vector<int>();
